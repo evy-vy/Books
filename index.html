@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Books</title>
   </head>
-    <body>
-    
-    </body>
+  <body>
+    <div class="container">
+      <h1 class="title">Ajouter un livre !</h1>
+
+      <form action="" class="book-form">
+
+        <div class="inputs">
+          <label for="title">Titre</label>
+          <input type="text" id="titre">
+        </div>
+
+        <div class="inputs">
+          <label for="author">Auteur</label>
+          <input type="text" id="author">
+        </div>
+
+        <div class="inputs">
+          <label for="year">Année</label>
+          <input type="text" id="année">
+        </div>
+
+        <button class="submit">Envoyer</button>
+
+      </form>
+
+      <hr>
+
+      <table>
+          <thead>
+            <th>Titre</th>
+            <th>Auteur</th>
+            <th>Année</th>
+          </thead>
+          <tbody class="book-list">
+
+          
+          </tbody>
+      </table>
+    </div>
+  </body>
 </html>
