@@ -4,15 +4,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.sucess, .error {
+.success,
+.error {
   text-align: center;
   color: #fff;
   padding: 5px;
   margin: 5px 0 15px 0;
 }
-.sucess {
+
+.success {
   background: green;
 }
+
 .error {
   background: red;
 }
@@ -51,12 +54,24 @@ button {
   text-align: center;
 }
 
+.delete {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 table {
   width: 100%;
 }
+
 th {
   width: 33%;
 }
+
 td {
   text-align: center;
 }
